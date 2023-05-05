@@ -22,7 +22,7 @@ CREATE TABLE `members` (
   `tgl_isi` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO `members` (`id`, `email`, `nama_lengkap`, `password`, `status`, `token_ganti_password`, `tgl_isi`) VALUES
-(2, 'dirumahrafif@gmail.com', 'Di Rumahrafif', 'c33367701511b4f6020ec61ded352059', '1', '', '2021-04-09 00:00:58');
+(2, 'alfatgaming08@gmail.com', 'Chaerul Alfat', 'c33367701511b4f6020ec61ded352059', '1', '', '2021-04-09 00:00:58');
 ALTER TABLE `members`
   ADD PRIMARY KEY (`id`);
 ALTER TABLE `members`
